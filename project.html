@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="project.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <header class="container-fluid">
+            <menu>
+                <div class="position-absolute "> 
+                    <h2 class="fw-bold position-absolute pt-4"; style="color: white;">SONY</h2>                    
+                    <input id="bar" type="checkbox">
+                </div>
+                <label for="bar"  onclick="document.getElementById('menu').classList.toggle('show')"  class="bi bi-list text-light fs-2 "></label>
+                <ul id="menu" class="d-flex justify-content-evenly align-items-center pt-4 gap-1">
+                     <li><a href="#Home">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="#Sign">Sign In</a></li>
+                    <li><a href="#Cart"><i class="bi bi-cart3"></i> Cart</a></li>
+                </ul>  
+            </menu>
+            
+        </header>
+        <div  class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div id="Home" class="carousel-inner">
+                <div  class="carousel-item active" style="transition:transfrom 1.2s ease-in-out ;">
+                    <img src="https://i.ytimg.com/vi/3iWrKhDb9z0/maxresdefault.jpg" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="https://i.ytimg.com/vi/WKdotkKJQYQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB6uEAKyU6giZwROtKJF6Bn3WamyQ" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="https://ocdn.eu/sport-images-transforms/1/ozWk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy81Y2M4ZmExZjJkMmFiZjMxZWY5NzUzMjc0OWUyMDFhMC5wbmeTlQPM1QDNDVrNB4KVAs0EsADCw5MJpjAzN2JkMQbeAAKhMAGhMQE/playstation-5-pro.png" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6tf4FP6hkWvnGwm3RNDs24Zmzygls-qSl4Q&s" class="d-block w-100 img-fluid" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            
+        </div>
+    </main>
+    <section id="info1" style="width: 100%; height: 40vh;">
+        <h1 class="position-relative mt-5 text-center fw-bold text-uppercase ">Information</h1>
+        <div class="d-flex align-items-center mt-5">
+            <img id="phone" class="img-fluid" src="PDX223_New_Products_M.webp" alt="" >
+            <p class="ms-3 w-50 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident at consequatur iste quisquam nobis saepe, distinctio officia. Vel necessitatibus fugit, illum aliquid ea doloribus! Suscipit voluptatum similique error tempora consequuntur.</p>
+            </div>
+    </section>
+    <div class="container-fluid mt-5">
+  <div class="row align-items-center justify-content-between">
+    <div class="col-md-5">
+        <h2 class="fw-bold mt-5 pt-5 mb-4">PRODUCT ON TRANDING</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, perspiciatis tempora quod debitis perferendis consectetur culpa accusantium enim at. Modi ex dolorum eum, labore commodi at perspiciatis autem eos consequatur.</p>
+    </div>
+    <div class="col d-flex justify-content-end">
+      <div class="ratio ratio-16x9" style="max-width:800px;">
+        <iframe src="https://www.youtube.com/embed/dMkfJK63KtA?start=126&autoplay=1&mute=1&loop=1&playlist=dMkfJK63KtA"
+                allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+<div class="container d-flex flex-wrap justify-content-center">
+    <h1 class="text-center w-100 mt-0 mb-4 pt-3">WH-1000 M6 Headphone</h1>
+  <img id="img2" src="81Y8BO+pWDL._UF350,350_QL80_.jpg" alt="Image 1">
+  <img id="img2" src="20250428_WH1000XM6_FeatureCards_FA-06.webp" alt="Image 2">
+  <img id="img2" src="FB-IG_1080pxW_x_1080pxH_Stagnant_Image.webp" alt="Image 3">
+  <img id="img2" src="xm6.webp" alt="Image 4">
+</div>
+<div class="text-center py-3 bg-light">
+  <span class="d-block text-secondary mb-2 small"><h1>Follow us on social media</h1></span>
+  <div class="d-flex justify-content-center gap-5 fs-1">
+    <a href="#" class="link-dark"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="link-dark"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="link-dark"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="link-dark"><i class="fab fa-youtube"></i></a>
+  </div>
+</div>
+<div id="Product" class="container-fluid w-100 h-100vh">
+    <h1>hello</h1>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="project.js"></script>
+</html>
