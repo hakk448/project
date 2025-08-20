@@ -1,13 +1,13 @@
 const products = [
         { id: 1, name: "WH-1000XM5", price: 399, img: "xm6.webp" },
-        { id: 2, name: "PS5", price: 499, img: "/Sony-PlayStation-Pro-5.webp" },
-        { id: 3, name: "Alpha 7 IV", price: 2499, img: "/PDX223_New_Products_M.webp" },
-        { id: 4, name: "Sony SRS-XB43", price: 299, img: "/91mcfDnLhqL._UF350,350_QL80_.jpg" },
-        { id: 5, name: "Sony Bravia X90J", price: 1299, img: "/XR55X90J_01.webp" },
-        { id: 6, name: "Sony-RX100-VII", price: 1499, img: "/Sony-RX100-VII-beauty02.jpeg" },
-        { id: 7, name: "Sony-RX100-VII", price: 2499, img: "/Sony_alpha_7IV_beauty.jpeg" },
-        { id: 8, name: "Alpha 7 IIV", price: 499, img: "/sony-xperia-1-VII-FI.jpg" },
-        { id: 9, name: "Sony WF-1000XM4", price: 299, img: "/XR55X90J_01.webp" },
+        { id: 2, name: "PS5", price: 499, img: "Sony-PlayStation-Pro-5.webp" },
+        { id: 3, name: "Alpha 7 IV", price: 2499, img: "PDX223_New_Products_M.webp" },
+        { id: 4, name: "Sony SRS-XB43", price: 299, img: "91mcfDnLhqL._UF350,350_QL80_.jpg" },
+        { id: 5, name: "Sony Bravia X90J", price: 1299, img: "XR55X90J_01.webp" },
+        { id: 6, name: "Sony-RX100-VII", price: 1499, img: "Sony-RX100-VII-beauty02.jpeg" },
+        { id: 7, name: "Sony-RX100-VII", price: 2499, img: "Sony_alpha_7IV_beauty.jpeg" },
+        { id: 8, name: "Alpha 7 IIV", price: 499, img: "sony-xperia-1-VII-FI.jpg" },
+        { id: 9, name: "Sony WF-1000XM4", price: 299, img: "XR55X90J_01.webp" },
     ];
     let cart = [];
     function renderProducts() {
